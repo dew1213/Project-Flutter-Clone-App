@@ -1,0 +1,23 @@
+เเหล่งที่มา  : https://github.com/freesoft/toonflix/tree/main
+
+
+จากgithubที่ clone มา ภายในได้มีการเรียกใช้  API จาก webtoon korea จึงทำให้
+    -error รูป
+  -เก็บข้อมูลเเละเชื่อมผ่าน API
+  -เชื่อมกับ webtoon ของเกาหลี
+    -text korea
+   
+ได้ทำการมาเปลี่ยนเป็น
+   -เก็บข้อมูลลง Json
+ -เชื่อมกับ webtoon ของไทย
+  -text thai
+
+Package ที่ใช้
+ได้เรียกใช้ 
+- class WebtoonModel
+    
+มีหน้า
+- homescreen
+    เรียกใช้หน้า	WebtoonModel	
+    เรียกใช้ 		today.json
+    push ไปหน้า 	Detailscreen
